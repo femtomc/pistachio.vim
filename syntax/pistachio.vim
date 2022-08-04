@@ -9,3 +9,7 @@ endif
 
 " Basic keywords
 syn keyword   pistachioLet let
+syn keyword   pistachioLambda λ 
+
+hi def link pistachioLet Statement
+hi def link pistachioLambda Statement
