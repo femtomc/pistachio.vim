@@ -11,6 +11,8 @@ endif
 syn keyword   pistachioLet let
 syn keyword   pistachioLambda λ 
 
-let b:current_syntax = "pistachio"
+" Default highlighting
 hi def link pistachioLet Keyword
 hi def link pistachioLambda Keyword
+
+let b:current_syntax = "pistachio"
